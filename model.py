@@ -22,7 +22,7 @@ class Model:
         print("acc: %.2f" % (acc))
     
     def getModel(self,w):
-        embed_dim = 128
+        embed_dim = 12
         lstm_out = 196
         
         model = Sequential()
