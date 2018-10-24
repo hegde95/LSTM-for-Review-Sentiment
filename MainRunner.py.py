@@ -7,13 +7,12 @@ Created on Sun Sep  2 01:06:21 2018
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from keras import backend as K
 
 import DataPreprocessing as dp
 import model as mod
 
 def load_dataCSV():
-    df = pd.read_csv('sentiment_analysis.csv')
+    df = pd.read_csv('Data/sentiment_analysis.csv')
     return df
 
 
